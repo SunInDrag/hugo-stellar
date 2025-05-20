@@ -1,0 +1,2 @@
+{{- $url := (resources.Get . | css.Sass).RelPermalink | relURL -}}
+{{- return $url -}}
